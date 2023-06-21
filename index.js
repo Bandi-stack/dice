@@ -1,4 +1,4 @@
-
+function Spin(){
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 
 var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
@@ -26,4 +26,5 @@ else if (randomNumber2 > randomNumber1) {
 }
 else {
   document.querySelector("h1").innerHTML = "🚩Draw🚩";
+}
 }
